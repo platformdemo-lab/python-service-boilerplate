@@ -5,6 +5,8 @@ metadata:
   description: Bootstrap-generated Python service created from the shared boilerplate
   annotations:
     github.com/project-slug: platformdemo-lab/SERVICE_NAME
+    backstage.io/source-location: url:https://github.com/platformdemo-lab/SERVICE_NAME
+    backstage.io/techdocs-ref: dir:.
     jenkins.io/job-full-name: SERVICE_NAME
 spec:
   type: service
