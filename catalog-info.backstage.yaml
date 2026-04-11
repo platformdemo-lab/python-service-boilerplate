@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: python-service-boilerplate
+  description: Boilerplate repository used by the Jenkins bootstrap job to create new Python services
+  annotations:
+    github.com/project-slug: platformdemo-lab/python-service-boilerplate
+spec:
+  type: template-repo
+  owner: user:default/guest
+  lifecycle: experimental

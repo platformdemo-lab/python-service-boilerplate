@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: SERVICE_NAME
+  description: Bootstrap-generated Python service created from the shared boilerplate
+  annotations:
+    github.com/project-slug: platformdemo-lab/SERVICE_NAME
+    jenkins.io/job-full-name: platformdemo-lab/SERVICE_NAME/main,platformdemo-lab/SERVICE_NAME/master
+spec:
+  type: service
+  owner: user:default/guest
+  lifecycle: experimental
